@@ -16,6 +16,7 @@ void reverseArray(int arr[],int n)
 
 void printArray(int arr[],int n)
 {
+    cout<<"The final array is ";
     for(int i=0; i<n; i++){
         cout<<arr[i]<<" ";
     }
